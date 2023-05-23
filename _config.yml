@@ -18,9 +18,9 @@ timezone: Asia/Kolkata
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Subham Jyoti # the main title
+title: Subham # the main title
 
-tagline:  Pholosophically Powered & Humorously Humble# it will display as the sub-title
+tagline:  Producing peotry, Managing Models, Pholosophically Powered & Humorously Humble # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -29,7 +29,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://subham73.github.io"
 
 github:
-  username: https://github.com/subham73 # change to your github username
+  username: subham73 # change to your github username
 
 twitter:
   username: subh_ham73 # change to your twitter username
@@ -37,7 +37,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: subham jyoti
+  name: Subhamjyoti
   email: subhamjyoti1@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -77,10 +77,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: './assets/images/profile_pic.jpeg'
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: './assets/images/profile_pic2.png'
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -126,7 +126,7 @@ kramdown:
     css_class: highlight
     # default_lang: console
     span:
-      line_numbers: false
+      line_numbers: false 
     block:
       line_numbers: true
       start_line: 1
